@@ -28,7 +28,7 @@ h1 {
   font-weight: 700;
   line-height: 1;
   margin-left: 5vh;
-  margin-bottom: 10px;
+  margin-bottom: 5vh;
 }
 
 h2 {
@@ -37,7 +37,7 @@ h2 {
   font-weight: 700;
   line-height: 1;
   margin-left: 5vh;
-  margin-bottom: 10px;
+  margin-bottom: 7vh;
 }
 p {
   color: #fff;
@@ -151,7 +151,7 @@ span {
 @media (max-width: 952px) {
   label.logo {
     font-size: 30px;
-    padding-left: 50px;
+    
   }
 
   nav ul li a {
