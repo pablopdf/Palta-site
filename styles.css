@@ -3,29 +3,48 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  font-family: "Space Grotesk", sans-serif;
 }
 
 presentacion {
+  display: inline-flex;
   position: absolute;
   padding-top: 30vh;
 }
 
+titulo {
+  margin-left: 5vh;
+  border-right: #fff 5px solid;
+  padding-right: 35px;
+}
+
+descripcionp {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
 h1 {
   color: #fff;
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 700;
   line-height: 1;
   margin-left: 5vh;
   margin-bottom: 10px;
-  z-index: 500;
+}
+
+h2 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1;
+  margin-left: 5vh;
+  margin-bottom: 10px;
 }
 p {
   color: #fff;
-  font-size: 1em;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.5em;
   font-weight: 100;
   margin-left: 5vh;
-  z-index: 500;
 }
 
 .container {
@@ -100,6 +119,7 @@ button {
   text-decoration: none;
   border: 1px solid #42a66c;
   margin-right: 30px;
+  border-radius: 50px;
 }
 
 button:hover {
@@ -139,9 +159,13 @@ span {
   }
 }
 
-@media (max-width: 1320px) {
+@media (max-width: 1120px) {
   .checkbtn {
     display: block;
+  }
+
+  button {
+    display: none;
   }
 
   ul {
